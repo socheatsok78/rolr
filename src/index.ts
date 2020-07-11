@@ -1,1 +1,3 @@
-export function noop() {}
+import Rolr from './Rolr'
+
+export default Rolr;
