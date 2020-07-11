@@ -3,7 +3,7 @@ export interface RolrInterface {
      * Check if has role
      * @param role
      */
-    hasRole(role: string): Boolean;
+    has(role: string): Boolean;
 
     /**
      * Add a new role to the list

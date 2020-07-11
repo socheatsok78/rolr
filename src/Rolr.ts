@@ -15,7 +15,7 @@ export default class Rolr implements RolrInterface {
      * Check if has role
      * @param role
      */
-    hasRole(role: string) {
+    has(role: string) {
         return this.roles.has(role)
     }
 
