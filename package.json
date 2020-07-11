@@ -1,6 +1,6 @@
 {
   "name": "rolr",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "git@github.com:socheatsok78/rolr.git",
   "author": "Socheat Sok <alex@socheat.net>",
@@ -12,7 +12,7 @@
     "build": "npm run build:types && npm run build:js",
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
-    "deploy:npm": "npm publish --access public"
+    "deploy:npm": "npm run build && npm publish --access public"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
