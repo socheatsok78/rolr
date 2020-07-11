@@ -1,0 +1,8 @@
+{
+  "name": "rolr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:socheatsok78/rolr.git",
+  "author": "Socheat Sok <alex@socheat.net>",
+  "license": "MIT"
+}
