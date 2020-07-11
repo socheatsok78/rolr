@@ -2,6 +2,7 @@
   "name": "rolr",
   "version": "0.1.1",
   "main": "lib/index.js",
+  "typings": "lib/types/src/index.d.ts",
   "repository": "git@github.com:socheatsok78/rolr.git",
   "author": "Socheat Sok <alex@socheat.net>",
   "license": "MIT",
