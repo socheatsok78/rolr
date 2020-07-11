@@ -9,8 +9,8 @@ import Rolr from 'rolr'
 
 const roles = new Rolr(['admin', 'staff'])
 
-roles.is('admin')  // true
-roles.is('editor') // false
+roles.has('admin')  // true
+roles.has('editor') // false
 ```
 
 ## License
