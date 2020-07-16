@@ -3,3 +3,4 @@
 .editorconfig
 example/
 tsconfig.json
+packages/
