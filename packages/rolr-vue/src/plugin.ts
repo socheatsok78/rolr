@@ -48,14 +48,6 @@ export function rolrPlugin(Vue: VueConstructor, defaultRolr?: VueRolr) {
       if (localRolr) {
         Object.defineProperty(this, "$rolr", { value: localRolr });
       }
-    },
-
-    methods: {
-      $can(arg: string): boolean {
-        const dep = renderingDependencyFor(Vue, this.$rolr);
-        dep._touch = dep._touch;
-        return this.$rolr.has(arg);
-      },
-    },
+    }
   });
 }
