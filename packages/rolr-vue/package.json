@@ -10,7 +10,8 @@
     "prebuild": "rimraf lib && rimraf tsconfig.tsbuildinfo",
     "build": "npm run build:types && npm run build:js",
     "build:types": "tsc --emitDeclarationOnly",
-    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline"
+    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "deploy:npm": "npm publish --public"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
