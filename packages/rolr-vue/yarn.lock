@@ -1827,6 +1827,11 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
+rolr@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/rolr/-/rolr-0.1.3.tgz#4e9eb1294add0462faf47baa7414731c60332696"
+  integrity sha512-tlVlRyFTAPLuIJQQMPA4acETD5SlKOxF7j85agyN4hAaFDXCkQnVnYNGpF2Le/xaA4XkxmGVC90HIkWm78l1Sw==
+
 safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
