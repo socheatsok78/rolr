@@ -1,4 +1,4 @@
 import Vue from "vue";
-import '../patch'
+import './patch'
 
 export type VueRolr = Vue["$rolr"];
