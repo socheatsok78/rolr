@@ -6,12 +6,12 @@ export type RolrProps = {
     has: string
 }
 
-export type PassthroughProps<T extends VueRolr> = RolrProps & {
+export type PassthroughProps = RolrProps & {
     not?: boolean,
     passThrough?: boolean
 }
 
-export default Vue.extend<PassthroughProps<VueRolr>>({
+export default Vue.extend<PassthroughProps>({
     name: 'Rolr',
     functional: true,
     props: {
